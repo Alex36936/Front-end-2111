@@ -30,14 +30,9 @@ ul{
 ul li{
     color: white;
 }
-/*.first{
-    background-color: papayawhip;
-}
-.third{
-    background-color: burlywood;
-}*/
+
 ul li:first-child{
-    background-color: aquamarine;
+    background-color: rgb(13, 99, 70);
 }
 ul li:last-child{
     background-color: blue;
