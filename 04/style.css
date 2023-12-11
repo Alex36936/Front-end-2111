@@ -51,7 +51,7 @@ p{
     margin: 24px 0px;
 }
 .container-image{
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 277px;
     height: 247px;
     margin: 0px 0px 64px 0px;
