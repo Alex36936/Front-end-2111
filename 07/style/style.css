@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+display: inline;
+box-sizing: border-box;
+width: 80px;
+height: 80px;
+border-radius: 7px;
+border: 1px solid #242222;
+margin-top: 64px;
+}
+.box:nth-child(3){
+    background-color: #FFF;
+}
