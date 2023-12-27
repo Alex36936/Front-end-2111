@@ -43,6 +43,7 @@ body{
      content: "";
      border: 1px solid #FFF;
      margin-right: 26px;
+     margin-left: 16px;
     }
 .right {
     display: flex;
@@ -87,12 +88,18 @@ font-size: 32px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-    display: flex;
+display: flex;
+align-items: center;
 }
 .border_flex::before {
     content: "";
-    border: 1px solid #FFF;
-    margin-right: 35px;
+    /* border: 1px solid #FFF;
+   margin-right: 35px; */
+    display: inline-block;
+    height: 24px;
+    width: 2px;
+    background: white;
+    margin-right: 10px;   
 }
 .item {
     flex: 1;
@@ -105,7 +112,7 @@ line-height: normal;
 .container1 h4{
     width: 580px;
 height: 94px;
-flex-shrink: 0;
+/* flex-shrink: 0; */
 color: #FFF;
 font-family: Inter;
 font-size: 64px;
@@ -113,6 +120,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 letter-spacing: 3.52px;
+margin-bottom: 17px;
 }
 .container-text{
 display: flex;
@@ -175,9 +183,13 @@ font-size: 22px;
 font-style: normal;
 font-weight: 500;
 line-height: 141.523%;;
+padding-top: 55px;
+    padding-bottom: 53px;
 }
 .stream-now-btn{
     justify-content: center;
+    display: flex;
+    align-items: center;
     width: 272px;
     height: 64px;
     text-decoration: none;
@@ -186,11 +198,14 @@ line-height: 141.523%;;
     background: #D40D1F;
     text-align: center;
     color: #f4eeee;
-    padding: 16px 54px 16px 34px;
+    padding: 16px 32px 16px 34px;
+    margin-right: 50px;
 }
 .watch-all-btn{
+    display: flex;
     width: 271px;
     height: 64px;
+    align-items: center;
     text-decoration: none;
     flex-shrink: 0;
     border-radius: 10px;
@@ -221,6 +236,26 @@ letter-spacing: 2.97px;
     font-weight: 800;
     line-height: 144.523%;
     letter-spacing: 2.97px;
+    /* gap: 32px; */
+}
+.popular_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 600px;
+}
+.popular_bloc_button_icon{
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    opacity: .7;
+}
+.rotated_btn {
+    transform: rotate(180deg); 
+}
+.popular_bloc_button_icon:hover {
+    border: 2px solid rgb(255, 255, 255);
+    opacity: 1;
 }
 .movies{
 width: 151px;
@@ -237,8 +272,9 @@ ul {
     flex-grow: 1;
     justify-content: flex-start;
     gap: 40px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     padding: 1px;
+   /* padding-bottom: 49px; */
 }
 
 ul img {
