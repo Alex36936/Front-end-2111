@@ -93,13 +93,12 @@ align-items: center;
 }
 .border_flex::before {
     content: "";
-    /* border: 1px solid #FFF;
-   margin-right: 35px; */
     display: inline-block;
+    border: 1px solid #FFF;
     height: 24px;
     width: 2px;
     background: white;
-    margin-right: 10px;   
+    margin-right: 20px;   
 }
 .item {
     flex: 1;
@@ -243,7 +242,7 @@ letter-spacing: 2.97px;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    width: 600px;
+    width: 900px;
 }
 .popular_bloc_button_icon{
     border: 2px solid rgba(255, 255, 255, 0.7);
@@ -265,6 +264,9 @@ border: 1px solid #FFF;
 left: 80px;
 bottom: 49px;
 padding-top: 32px;
+}
+.conteiner-movies{
+    width: 900px;
 }
 ul {
     list-style: none;
