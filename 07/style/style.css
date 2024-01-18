@@ -216,8 +216,6 @@ section{
     border: none;
     background-color: transparent;
   }
- 
-
 @media(max-width:768px){
     .large-teapot{
         margin-left: 1%;
@@ -294,11 +292,6 @@ section{
         border-bottom: 3px solid #000;
         padding-bottom: 6%;
     }
-    section{
-        flex-wrap: wrap;
-        padding-bottom: 42px;
-        margin: 0 auto;
-    }
     .description-block{
         width: 100%;
         padding-top: 13%;
@@ -320,8 +313,6 @@ section{
         display: none;
         }
 }
-
-
     @media(max-width:480px){
     .navigation a{
         display: none;
