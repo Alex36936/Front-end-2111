@@ -292,6 +292,11 @@ section{
         border-bottom: 3px solid #000;
         padding-bottom: 6%;
     }
+    section{
+        flex-wrap: wrap;
+        padding-bottom: 42px;
+        margin: 0 auto;
+    }
     .description-block{
         width: 100%;
         padding-top: 13%;
@@ -302,16 +307,16 @@ section{
     }
     .proposed a:first-child{
         display: none;
-}
+    }
     .proposed a:nth-child(2){
         display: none;
-}
+    }
      .proposed a:nth-child(3){
         display: none;
-}
+    }
      .proposed a:last-child{
         display: none;
-        }
+    }
 }
     @media(max-width:480px){
     .navigation a{
@@ -320,7 +325,7 @@ section{
     .burger-menu{
         display: block;
         transform: translate(-150px);
-        }
+    }
     .logo{
         display: block;
         justify-content: center;
@@ -340,6 +345,10 @@ section{
     }
     .description-block{
         padding-top: 13%;
+    }
+    section{
+        margin: 0 auto;
+
     }
     .title{
        color: #FFF;
