@@ -330,18 +330,24 @@ section{
     }
     .burger-menu{
         display: block;
-        transform: translate(-150px);
+        /* transform: translate(-150px); */
+        order: 0;
     }
     .logo{
         display: block;
         justify-content: center;
-        transform: translate(150px);
+        /* transform: translate(150px); */
+        order: 1;
     }
     .header{
         display: flex;  
     }
+    .search{
+        order: 2;
+    }
     .search a:first-child{
         justify-self: flex-start;
+        
     }
     .search a:nth-child(2){
         margin-right: 20px;
