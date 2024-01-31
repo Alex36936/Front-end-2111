@@ -12,7 +12,7 @@ console.log('quantity', quantity);
 let summOperation = (+price+ +quantity);
 console.log(summOperation);
 
-//Hard Task
+//Third Task
 let sale = ((summOperation*5)/100);
 console.log(sale);
 
