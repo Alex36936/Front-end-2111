@@ -1,4 +1,4 @@
-//First Task
+//First Task - homework
 let userNickname='Nick';
 let userScore=25;
 
