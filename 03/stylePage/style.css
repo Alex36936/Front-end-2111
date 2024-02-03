@@ -1,8 +1,4 @@
 /*paragraf style*/
-/* p{
-    background-color: beige;
-    color: blueviolet;
-} */
 body p.bg-dark{
     background-color: orange;
 }

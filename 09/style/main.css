@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0 auto;
+}
+.top-section{
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+    width: 1438px;
+height: 769px;
+flex-shrink: 0;
+width: 1440px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+.header-menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+li{
+    margin-right: 48px;
+    color: #48555B;
+font-family: OpenSans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.091px;
+}
+.logo{
+    /* margin-left: 251px;
+    margin-right: 451px; */
+    width: 79.527px;
+height: 18px;
+flex-shrink: 0;
+margin: 24px 451px 23px 251px;
+}
+.name{
+    color: #48555B;
+text-align: center;
+font-family: OpenSans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.306px;
+margin-top: 58px;
+margin-bottom: 85px;
+}
+.about-us{
+display: flex;
+margin-left: 125px;
+margin-right: 249px;
+width: 100%;
+align-content: space-between;
+/* width: 405px;
+height: 300px; */
+margin-bottom: 118px;
+}
+.text{
+    width: 50%;
+    display: flex;
+/* width: 405.076px;
+height: 81px;
+flex-direction: column;
+justify-content: flex-end;
+flex-shrink: 0; */
+color: #48555B;
+font-family: OpenSans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.188px;
+}
+.text-small{
+    color: #48555B;
+font-family: OpenSans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 176.923% */
+letter-spacing: 0.188px;
+}
+.text-bold{
+    color: #48555B;
+font-family: OpenSans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.188px;
+}
+.image{
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+}
+.image-item{
+    width: 150px;
+height: 300px;
+flex-shrink: 0;
+}
+.horizontal-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   margin-left: 249px;
+margin-right: 249px;
+/* margin-top: 120px;
+margin-bottom: 78px; */
+}
+.services{
+    background: #00A4E5;
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    /* gap: 31.6px; */
+}
+.blocks{
+    display: flex;
+margin-left: 125px;
+margin-right: 249px;
+gap: 28px;
+margin-top: 78px;
+}
+.block-item{
+    border: 1px solid #E6E6E6;
+background: #FFF;
+display: flex;
+justify-content: space-between;
+}
+.question{
+    /* margin-left: 125px;
+    margin-right: 249px;
+    text-align: center; 
+    margin-top: 235px;
+    margin-bottom: 231px; */
+    margin: 0 auto;
+}
+
+.f-column-4{
+    display: flex;
+    justify-content: center;
+    background: #171819;
+    color: #FFF;
+text-align: center;
+font-family: OpenSans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.846px;
+align-items: center;
+margin-bottom: 71px;
+/* margin-top: 41px; */
+flex-direction: row;
+}
+.f-title-4{
+    color: #FFF;
+text-align: center;
+font-family: OpenSans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.846px;
+
+}
+.news{
+    background: #FFF;
+    color: black;
+    width: 250px;
+height: 40px;
+flex-shrink: 0;
+color: #48555B;
+font-family: OpenSans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.07px;
+/* gap: 70px; */
+align-content: center;
+}
+.f-button{
+    width: 150px;
+height: 40px;
+flex-shrink: 0;
+background: #00A4E5;
+color: #FFF;
+text-align: center;
+font-family: OpenSans;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+border: none;
+}
+.footer{
+margin: 0 auto;
+background: #141A20;
+}
+.footer-items{
+    display: flex;
+}
+.f-column-1{
+    display: flex;
+    flex-direction: column;
+}
+.f-column-2{
+    flex-direction: column;
+}
+.socialmedia{
+    flex-direction: row;
+}
