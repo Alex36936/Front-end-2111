@@ -95,7 +95,7 @@
  console.log(result);
 
 
- 
+
  let tempResult = "";
  let temperature = 30;
 
@@ -112,7 +112,6 @@
 
 let yourOld = Number(prompt('Вкажіть ваш вік'));
 let yourCountry = (prompt('Вкажіть країну проживання'));
-// let fixCountry = 'Україна';
 
 if (yourOld >= 18 && yourCountry === 'Україна') {
     console.log("Вітаємо, ви маєте право голосу в Україні");
