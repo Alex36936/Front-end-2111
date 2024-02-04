@@ -3,16 +3,16 @@ let userNickname='Nick';
 let userScore=25;
 
 //Second Task
-let price = prompt('Ціна покупки');
-let quantity = prompt('кількість продуктів');
+let price = Number(prompt('Ціна покупки'));
+let quantity = Number(prompt('кількість продуктів'));
 
 console.log('price', price);
 console.log('quantity', quantity);
 
-let summOperation = (+price+ +quantity);
+let summOperation = Number(price*quantity);
 console.log(summOperation);
 
 //Third Task
-let sale = ((summOperation*5)/100);
+let sale = Number((summOperation*5)/100);
 console.log(sale);
 
