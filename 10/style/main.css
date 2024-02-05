@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+.body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-header {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background-image: url('../image/header_banner.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.logo{
+width: 152px;
+height: 36px;
+flex-shrink: 0;
+margin-top: 40px;
+margin-left: 142px;
+}
+p{
+    color: #FFF;
+font-family: Philosopher;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.age-text{
+    color: #F90;
+font-family: Philosopher;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-content{
+    /* background: rgba(0, 0, 0, 0.60); */
+    color: #fff;
+    /* display: flex; */
+}
+.header-menu{
+    display: flex;
+}
+.header-item{
+
+}
+.header-button{
+    width: 127px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #F90;
+    font-family: Philosopher;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.column{
+    width: 437px;
+height: 161px;
+flex-shrink: 0;
+}
+h2{
+    color: #FFF;
+text-align: right;
+font-family: Philosopher;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hosp-text{
+    color: #F90;
+font-family: Philosopher;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.column-text{
+    width: 646px;
+height: 300px;
+flex-shrink: 0;
+}
+.text{
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.autor{
+    color: #F90;
+    font-family: Philosopher;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

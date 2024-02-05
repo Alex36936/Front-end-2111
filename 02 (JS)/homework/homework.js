@@ -80,11 +80,11 @@
      console.log('Число поза діапазоном');
  }
 
-
 //seventh task
 //условие ? выражение1 : выражение2
 
- let result = '';
+let result = '';
+ 
  let score = 75;
 
  if (score > 50) {
