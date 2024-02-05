@@ -83,6 +83,7 @@
 //seventh task
 //условие ? выражение1 : выражение2
 
+
 let result = '';
  
  let score = 75;
